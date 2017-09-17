@@ -1,0 +1,32 @@
+/*--CSS--*/
+
+.theRightSearchColumn{
+	background: blue;
+}
+
+.gifBlock{
+	background: pink;
+}
+
+.theLeftGifContainer{
+	background: orange;
+	margin: 0px 10px;
+}
+
+.theButtonsAtTop{
+	margin: 20px 0px ;
+}
+
+.topicToSearch{
+	margin: 5px 5px;
+}
+
+p {
+	text-align: center;
+	font-weight: bold;
+}
+
+img{
+	display: block;
+	margin:auto;
+}

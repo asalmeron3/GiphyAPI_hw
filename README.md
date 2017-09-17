@@ -1,2 +1,3 @@
-# GiphyAPI_hw
-week's 6 api &amp; ajax
+# GiphyAPI_hw - week's 6 api and ajax
+
+I'll be back...
