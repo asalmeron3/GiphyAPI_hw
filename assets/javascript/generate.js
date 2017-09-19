@@ -47,7 +47,8 @@ MakeButtons();
 
       var topic = $(this).attr("data-name");
       //make a variable to store the link to the giphy api AND appends the api Key to the link and the topic (the data-name) from the button clicked AND limit the results to 6
-      var queryURL = "http://api.giphy.com/v1/gifs/search?&limit=" + numOfGifs + "&api_key=" + apiKey + "&q=" + topic;
+      // using httpS
+      var queryURL = "https://api.giphy.com/v1/gifs/search?&limit=" + numOfGifs + "&api_key=" + apiKey + "&q=" + topic;
 
       //use the method ajax to search the api for the gifs we want to see
       $.ajax({
