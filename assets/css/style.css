@@ -1,20 +1,27 @@
-/*--CSS--*/
+ /*--CSS--*/
 
 .theRightSearchColumn{
-	background: blue;
+	background: black;
+	color:white;
+	padding: 20px;
 }
 
 .gifBlock{
-	background: pink;
-}
+/*	margin:5px;
+*/	/*makes the div bigger than 4 columns...not thanks*/
+padding-top:10px;
+margin: auto;
 
-.theLeftGifContainer{
-	background: orange;
-	margin: 0px 10px;
 }
 
 .theButtonsAtTop{
 	margin: 20px 0px ;
+	background: #24267b;
+	color:white;
+}
+
+#clickToAddButton{
+	color: white;
 }
 
 .topicToSearch{
@@ -29,4 +36,78 @@ p {
 img{
 	display: block;
 	margin:auto;
+	padding:5px;	
+	border-style: dashed;
+	border-width: 2px;
+	
 }
+
+
+#userGifSearch{
+	color:black;
+}
+
+#clickToAddButton{
+	white-space: normal;
+}
+
+.theLeftGifContainer{
+	float: left;
+	background: lightgrey;
+}
+
+.theRightSearchColumn{
+	float:right;
+	clear:left;
+}
+
+h2, 
+label {
+	text-align: center;
+
+}
+
+@media screen and (min-width: 992px) {
+	input {
+	margin:auto;
+	width: 100%;	
+}
+
+}
+@media screen and (max-width: 992px) {
+
+	.theRightSearchColumn{
+		float:left;
+		margin-bottom: 10px;
+	}
+	.theLeftGifContainer{
+		clear:left;
+		margin-top: 10px;
+	}
+
+	.gifBlock{
+		width: 45%;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.theRightSearchColumn{
+	float:left;
+	margin-bottom: 10px;
+	}
+	.theLeftGifContainer{
+		clear:left;
+		margin-top: 10px;
+	}
+
+	.gifBlock{
+		width: 100%;
+	}
+	h2,
+	h3 {
+		font-size: 20px;
+	}
+}
+
+
